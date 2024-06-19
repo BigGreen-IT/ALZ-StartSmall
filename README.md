@@ -23,7 +23,7 @@ Resource Tagging
 
 Azure Policy 
 
-If you need assistance in purchasing this solution or have questions please contact support@biggreenit.com 
+If you need assistance in purchasing this solution or have questions please contact azmsupport@biggreenit.com 
 ## Prerequisites
 
 Azure subscription 
