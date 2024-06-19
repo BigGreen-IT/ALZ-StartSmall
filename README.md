@@ -10,11 +10,17 @@ Resource groups are used to organize and manage your various Azure resources.  V
 The BGIT Azure Landing Zone offering provides customers with an environment that meets Azure’s best practices for Cloud Adoption Framework and gives customers the flexibility to change or customize their environment as needed.  The following resources are automatically deployed as part of your landing zone: 
 
 Resource groups 
+
 Virtual networks (VNet)
+
 Subnets 
+
 Virtual Network Gateway 
-Network Security Group (NSG) 
+
+Network Security Group (NSG)
+
 Resource Tagging 
+
 Azure Policy 
 
 If you need assistance in purchasing this solution or have questions please contact support@biggreenit.com 
