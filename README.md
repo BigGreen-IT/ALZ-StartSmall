@@ -21,14 +21,29 @@ Network Security Group (NSG)
 
 Resource Tagging 
 
-Azure Policy 
-
 If you need assistance in purchasing this solution or have questions please contact azmsupport@biggreenit.com 
+
 ## Prerequisites
 
 Azure subscription 
 
-The user deploying the solution must have Owner or Contributor RBAC role assigned 
+The user deploying the solution must have Owner or Contributor RBAC role assigned
+
+To grant the built-in service principal "Managed Applications on Behalf Application" the role of Contributor in an Azure subscription, you can follow these steps:
+
+1.	Sign in to Azure Portal: Go to the Azure Portal and sign in with an account that has the necessary permissions to assign roles.
+2.	Navigate to Subscriptions: In the portal, search for and select "Subscriptions" to list all the Azure subscriptions you have access to.
+3.	Select the Subscription: Click on the specific subscription where you want to assign the role.
+4.	Access Control (IAM): Inside the subscription, find the "Access control (IAM)" option in the left-hand menu to manage access to the subscription.
+5.	Add Role Assignment: Click on "Add" and then select "Add role assignment" to open the role assignment panel.
+6.	Choose Role: In the "Role" dropdown, select the "Contributor" role, which allows managing all resources but does not allow access to assign roles in Azure RBAC or manage the subscription itself.
+7.	Assign Access to: Choose "Azure AD user, group, or service principal" as the type of identity to assign the role to.
+8.	Select the Service Principal: In the "Select" field, search for "Managed Applications on Behalf Application" and select the service principal from the list.
+9.	Review and Assign: Review the role and principal selection, then click "Assign" to grant the Contributor role to the service principal.
+
+Please note that the exact name of the service principal may vary, and you should ensure that you have the correct service principal selected before assigning the role. 
+
+
 ## User Input
 
 The user will need to provide input for the following: 
