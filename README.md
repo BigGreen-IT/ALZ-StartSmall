@@ -21,7 +21,13 @@ Network Security Group (NSG)
 
 Resource Tagging 
 
-If you need assistance in purchasing this solution or have questions please contact azmsupport@biggreenit.com 
+If you need assistance in purchasing this solution or have questions please contact azmsupport@biggreenit.com
+
+## Azure Pricing
+
+Virtual Networks in Azure are free of charge. Every subscription can create up to 50 Virtual Networks across all regions. VNET Peering links two virtual networks – either in the same region, or in different regions - and enables you to route traffic between them using private IP addresses (carry a nominal charge). Inbound and outbound traffic is charged at both ends of the peered networks. Network appliances such as VPN Gateway and Application Gateway that are run inside a virtual network are also charged.
+
+For more information on Azure pricing, please refer to the Microsoft website: https://azure.microsoft.com/en-us/pricing/details/virtual-network/
 
 ## Prerequisites
 
