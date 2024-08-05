@@ -9,19 +9,14 @@ Resource groups are used to organize and manage your various Azure resources.  V
 
 The BGIT Azure Landing Zone offering provides customers with an environment that meets Azure’s best practices for Cloud Adoption Framework and gives customers the flexibility to change or customize their environment as needed.  The following resources are automatically deployed as part of your landing zone: 
 
-Resource groups 
+  + Resource groups 
+  + Virtual networks (VNet)
+  + Subnets 
+  + Virtual Network Gateway 
+  + Network Security Group (NSG)
+  + Resource Tagging 
 
-Virtual networks (VNet)
-
-Subnets 
-
-Virtual Network Gateway 
-
-Network Security Group (NSG)
-
-Resource Tagging 
-
-If you need assistance in purchasing this solution or have questions, please contact azmsupport@biggreenit.com
+If you need assistance in purchasing this solution or have questions, please contact azmsupport@biggreenit.com.
 
 ## Azure Pricing
 
@@ -33,7 +28,7 @@ For more information on Azure pricing, please refer to the Microsoft website: ht
 
 Azure subscription 
 
-The user deploying the solution must have Owner or Contributor RBAC role assigned
+The user deploying the solution must have Owner or Contributor RBAC role assigned.
 
 To grant the built-in service principal "Managed Applications on Behalf Application" the role of Contributor in an Azure subscription, you can follow these steps:
 
@@ -56,7 +51,7 @@ The user will need to provide input for the following:
 
 ## Under Basics - 'Project Details'
 
-Azure Subscription - A valid Azure subscription will need to be selected
+Azure Subscription - A valid Azure subscription will need to be selected.
 
 Resource group - A new resource group will need to be created. Click on the blue 'Create new' link below the Resource group drop down menu and enter a name. To maintain cloud adoption framework (CAF) compliance the resource name is required to have a prefix of 'rg-app-' in order to pass validation and continue. It is recommended to use the Azure region that you are deploying into to maintain consistency with the established CAF naming convention.  EX: rg-app-eastus.
 
@@ -119,13 +114,3 @@ Naming conventions and standards take on special importance since there is no wa
 ## Authors
 
 - [@fametype]([https://github.com/frametype])
-
-
-## Badges
-
-Add badges from somewhere like: [shields.io](https://shields.io/)
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
-
