@@ -21,7 +21,7 @@ Network Security Group (NSG)
 
 Resource Tagging 
 
-If you need assistance in purchasing this solution or have questions please contact azmsupport@biggreenit.com
+If you need assistance in purchasing this solution or have questions, please contact azmsupport@biggreenit.com
 
 ## Azure Pricing
 
@@ -56,15 +56,15 @@ The user will need to provide input for the following:
 
 ## Under Basics - 'Project Details'
 
-Azure Subscription - A valid Azure subscription will need to be sealcted
+Azure Subscription - A valid Azure subscription will need to be selected
 
 Resource group - A new resource group will need to be created. Click on the blue 'Create new' link below the Resource group drop down menu and enter a name. To maintain cloud adoption framework (CAF) compliance the resource name is required to have a prefix of 'rg-app-' in order to pass validation and continue. It is recommended to use the Azure region that you are deploying into to maintain consistency with the established CAF naming convention.  EX: rg-app-eastus.
 
 ## Under Basics - 'Instance Details'
 
-Region - An appropriate Azure region will need to be selected from the drop down menu.
+Region - An appropriate Azure region will need to be selected from the drop-down menu.
 
-## Under Basics - 'Managed Aplication Details'
+## Under Basics - 'Managed Application Details'
 
 Application Name - A name must be provided for the managed application artifact that will be created in Azure. EX: alzstartsmall
 
@@ -72,11 +72,11 @@ Managed Resource Group - This will be the resource group created to contain the 
 
 ## Under Gateway Settings
 
-A dropdown is provied to select if a Virtual Network Gateway is desired for hybrid conectivity to Azure from an external source (EX: VPN).  Default is NO and a gateway resource will not be deployed.  Selecting YES will deploy a gateway to establish conenctivity.  NOTICE:  Deploying a gateway does create a resource that will have an noticible impact on Azure consumption and billable usage.
+A dropdown is provided to select if a Virtual Network Gateway is desired for hybrid connectivity to Azure from an external source (EX: VPN).  Default is NO and a gateway resource will not be deployed.  Selecting YES will deploy a gateway to establish connectivity.  NOTICE:  Deploying a gateway does create a resource that will have a noticeable impact on Azure consumption and billable usage.
 
 ## Under Prerequisites Validation
 
-A check is performed to make sure the required RBAC roled listed above are in place. If not, it is not possible to continue as deployment will fail.
+A check is performed to make sure the required RBAC roles listed above are in place. If not, it is not possible to continue as deployment will fail.
 
 ## Identity and RBAC Roles
 
@@ -115,7 +115,7 @@ https://learn.microsoft.com/en-us/azure/governance/management-groups/azure-manag
 If you need assistance applying additional governance best practices to your Azure resources, please contact sales@biggreenit.com 
 ## Naming Conventions
 
-Naming conventions and standards take on special importance since there is no way to rename resources in Azure once they are deployed.  The naming conventions follows the best practices of the Cloud Adoption Framework. 
+Naming conventions and standards take on special importance since there is no way to rename resources in Azure once they are deployed.  The naming conventions follow the best practices of the Cloud Adoption Framework. 
 ## Authors
 
 - [@octokatherine](https://www.github.com/octokatherine)
