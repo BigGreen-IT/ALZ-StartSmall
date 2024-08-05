@@ -118,7 +118,7 @@ If you need assistance applying additional governance best practices to your Azu
 Naming conventions and standards take on special importance since there is no way to rename resources in Azure once they are deployed.  The naming conventions follow the best practices of the Cloud Adoption Framework. 
 ## Authors
 
-- [@octokatherine](https://www.github.com/octokatherine)
+- [@fametype]([https://github.com/frametype]))
 
 
 ## Badges
